@@ -6,6 +6,8 @@
   ### Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел. | [Блок-схема](Homework/Homework_01/Ex2/diagramEx2.drawio.png) >>> [Код](Homework/Homework_01/Ex2/Program.cs)
   - Ex3
   ### Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка). | [Блок-схема](Homework/Homework_01/Ex3/diagramEx3.drawio.png) >>> [Код](Homework/Homework_01/Ex3/Program.cs)
+  - Ex4
+  ### Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N. | [Блок-схема](Homework/Homework_01/Ex4/diagramEx4.drawio.png) >>> [Код](Homework/Homework_01/Ex4/Program.cs)
   - Homework_02
 - Lecture
   - Lecture_01
