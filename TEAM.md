@@ -1,3 +1,3 @@
-### List of team members
+### **List of team members**
 
-1. mrDEVGRU - Team Leader
+1. `mrDEVGRU - Team Leader`
