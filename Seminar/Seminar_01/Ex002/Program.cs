@@ -1,2 +1,3 @@
 ﻿
-Console.WriteLine("Задача 2");
+Console.WriteLine("Показать чётные числа от 1 до N");
+
