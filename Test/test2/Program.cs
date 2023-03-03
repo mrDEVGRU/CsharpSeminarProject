@@ -1,14 +1,14 @@
 ﻿// Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа.
 
-int Prompt(string message)
+int Prompt(string message)                          // функция
 {
-    Console.Write(message);
+    System.Console.Write(message);
     string value = Console.ReadLine();
     int result = Convert.ToInt32(value);
     return result;
 }
 
-int number = Prompt("Введите трехзначное число > ");
+int number = Prompt("Введите трехзначное число > ");            // применение функции
 if (number < 100 || number >= 1000)
 {
     Console.WriteLine("Вы ввели не  трехзначное число, пожалуйста повторите ввод");
