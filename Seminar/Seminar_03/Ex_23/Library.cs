@@ -14,7 +14,7 @@ public static class Library
         while (index <= n)
         {
             int sqr = index * index * index;
-            result = result + "[" + index + "->" + sqr + "] ";
+            result = result + "[" + index + "=" + sqr + "] ";
             index++;
         }
         return result;
