@@ -18,7 +18,7 @@ void PrintResult(int[] array)
     for (int i = 0; i < array.Length; i++)
     {
         Console.Write(array[i] + " ");
-        if (i % 2 == 1) sum = sum + array[i];
+        if (i % 2 == 1) sum += array[i];
     }
     Console.WriteLine($"Сумма элементов нечётной позиции = {sum}");
 }
