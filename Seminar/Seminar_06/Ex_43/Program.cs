@@ -39,7 +39,7 @@ double[] InputLineData(int numberofLine)
 double[] FindCoords(double[] lineData1, double[] lineData2)
 {
     double[] coord = new double[2];
-    coord[X_COORD] = (lineData1[CONSTANT] - lineData2[CONSTANT]) / (lineData2[COEFFICIENT] - lineData1[COEFFICIENT]);
+    coord[X_COORD] = (lineData1[CONSTANT] - lineData2[CONSTANT]) / (lineData1[COEFFICIENT] - lineData2[COEFFICIENT]);
     coord[Y_COORD] = lineData1[CONSTANT] * coord[X_COORD] + lineData1[CONSTANT];
     return coord;
 }
