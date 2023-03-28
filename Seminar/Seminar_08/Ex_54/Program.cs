@@ -26,5 +26,30 @@ void PrintMatrix(int[,] array)
     }
 }
 
+int[,] SortRowAscending(int[,] array)
+{
+    for (int i = 0; i < array.GetLength(0); i++)
+    {
+        for (int j = 0; j < array.GetLength(1); j++)
+        {
+            int minPosition = j;
+            for (int k = j + 1; k < array.GetLength(1); k++)
+            {
+                if (array[i, k] > array[i, minPosition]) minPosition = k;
+            }
+            int tmp = array[i, j];
+            array[i, j] = array[i, minPosition];
+            array[i, minPosition] = tmp;
+        }
+
+    }
+    return array;
+}
+
+
 int[,] matrix = GetMatrix();
+PrintMatrix(matrix);
+
+Console.WriteLine();
+int[,] rowSort = SortRowAscending(matrix);
 PrintMatrix(matrix);
