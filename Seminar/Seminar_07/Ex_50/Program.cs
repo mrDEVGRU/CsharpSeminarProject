@@ -3,12 +3,11 @@
 
 
 int[,] array = new int[3, 4];
-Random rand = new Random();
 for (int i = 0; i < 3; i++)
 {
     for (int j = 0; j < 4; j++)
     {
-        array[i, j] = rand.Next(1, 10);
+        array[i, j] = new Random().Next(1, 10);
         Console.Write(array[i, j] + " ");
     }
     Console.WriteLine();
