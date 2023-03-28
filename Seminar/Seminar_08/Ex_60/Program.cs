@@ -23,13 +23,13 @@ void CreateArray(int[,,] array3D)
     int number;
     for (int i = 0; i < temp.GetLength(0); i++)
     {
-        temp[i] = new Random().Next(1, 10);
+        temp[i] = new Random().Next(10, 100);
         number = temp[i];
         for (int j = 0; j < i; j++)
         {
             while (temp[i] == temp[j])
             {
-                temp[i] = new Random().Next(1, 10);
+                temp[i] = new Random().Next(10, 100);
                 j = 0;
             }
         }
